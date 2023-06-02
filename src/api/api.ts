@@ -120,7 +120,7 @@ export const getChatCompletionStream = async (
 };
 
 export const submitShareGPT = async (body: ShareGPTSubmitBodyInterface) => {
-  const request = await fetch('https://sharegpt.com/api/conversations', {
+  const request = await fetch('', {
     body: JSON.stringify(body),
     headers: {
       'Content-Type': 'application/json',
@@ -130,6 +130,6 @@ export const submitShareGPT = async (body: ShareGPTSubmitBodyInterface) => {
 
   const response = await request.json();
   const { id } = response;
-  const url = `https://shareg.pt/${id}`;
+  const url = ``;
   window.open(url, '_blank');
 };
