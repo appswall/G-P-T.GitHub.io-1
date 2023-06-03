@@ -74,7 +74,7 @@ export const generateDefaultChat = (
   folder?: string
 ): ChatInterface => ({
   id: uuidv4(),
-  title: title ? title : 'New Chat',
+  title: title ? title : '✍',
   messages:
     [],
   config: { ...useStore.getState().defaultChatConfig },
