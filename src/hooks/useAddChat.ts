@@ -12,11 +12,11 @@ const useAddChat = () => {
     if (chats) {
       const updatedChats: ChatInterface[] = JSON.parse(JSON.stringify(chats));
       let titleIndex = 1;
-      let title = `New Chat ${titleIndex}`;
+      let title = `✍ ${titleIndex}`;
 
       while (chats.some((chat) => chat.title === title)) {
         titleIndex += 1;
-        title = `New Chat ${titleIndex}`;
+        title = `✍ ${titleIndex}`;
       }
 
       updatedChats.unshift(generateDefaultChat(title, folder));
