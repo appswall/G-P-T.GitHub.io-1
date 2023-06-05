@@ -19,6 +19,34 @@
     <meta name="twitter:title" content="ChatGPT" />
     <meta name="twitter:card" content="summary_large_image" />
     <title>ChatGPT</title>
+    <style type="text/css">
+        html,
+        body {
+           background-color: #343541;
+    }   
+    </style>
+<!-- Yandex Games SDK -->
+<script src="https://yandex.ru/games/sdk/v2"></script>
+<!-- Yandex.RTB -->
+    <script>window.yaContextCb=window.yaContextCb||[]</script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+        <script>
+        YaGames.init({
+            adv: {
+                 onAdvClose: wasShown => {
+                                console.info('adv closed!');
+                            }
+                        }
+                    })
+                        .then(ysdk => {
+                            ysdk.adv.showFullscreenAdv();
+                            window.ysdk = ysdk;
+                        });
+            
+                    function ShowAd() {
+                        window.ysdk.adv.showFullscreenAdv();
+        }
+        </script>
   </head>
   <body>
     <div id="root"></div>
