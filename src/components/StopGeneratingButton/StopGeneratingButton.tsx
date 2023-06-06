@@ -101,7 +101,7 @@ const StopGeneratingButton = () => {
 		repeatCount="indefinite"/>
 </rect>
 </svg>
-               ... x
+              Ⓧ ... 
         </div>
       </button>
     </div>
