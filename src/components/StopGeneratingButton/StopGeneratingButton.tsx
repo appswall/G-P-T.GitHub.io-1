@@ -12,7 +12,6 @@ const StopGeneratingButton = () => {
     >
       <button className='btn relative btn-neutral border-0 md:border'>
         <div className='flex w-full items-center justify-center gap-2'>
-               . . . x
 <svg viewBox="0 0 160 140">
 <rect fill="#CF2FFF" width="5" height="40" x="0" y="50">
 	<animate 
@@ -102,6 +101,7 @@ const StopGeneratingButton = () => {
 		repeatCount="indefinite"/>
 </rect>
 </svg>
+               ... x
         </div>
       </button>
     </div>
