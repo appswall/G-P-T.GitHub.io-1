@@ -33,7 +33,7 @@
   "total": "Общий",
   "resetCost": "Сброс",
   "countTotalTokens": "Подсчитать общее количество токенов",
-  "morePrompts": "Вы можете найти больше подсказок здесь: ",
+  "morePrompts": "",
   "clearPrompts": "Очистить подсказки",
   "postOnShareGPT": {
     "title": "Опубликовать на ShareGPT",

@@ -164,7 +164,7 @@ const PromptLibraryMenuPopUp = ({
         <div className='mt-6 px-2'>
           {t('morePrompts')}
           <a
-            href='https://github.com/f/awesome-chatgpt-prompts'
+            href=''
             target='_blank'
             className='link'
           >
