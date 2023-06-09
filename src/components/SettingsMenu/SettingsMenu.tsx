@@ -53,6 +53,7 @@ const SettingsMenu = () => {
               <TotalTokenCostToggle />
             </div>
             <ClearConversation />
+            <PromptLibraryMenu />
             <ChatConfigMenu />
             <TotalTokenCost />
           </div>
